@@ -3,10 +3,9 @@
 .action {
   
   color: #707070;
-  /*font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;*/
-  font: bold 14px 'Montserrat', sans-serif;
+
+  font-weight: bold;
+  font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
 

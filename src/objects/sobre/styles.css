@@ -1,7 +1,7 @@
 
 .sobre {
   
-  color: #707070;
+  color: var(--color-fourth);
 
   font-weight: bold;
   font-size: 14px;
@@ -9,3 +9,6 @@
   text-transform: uppercase;
 
 }
+
+
+

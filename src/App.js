@@ -1,10 +1,13 @@
 import React from 'react';
 
-import Sobre from './objects/sobre';
+import Header from './component/Header'
 
 
 function App() {
-  return ( <Sobre /> );
+  return (<Header />);
 }
+
+
+
 
 export default App;

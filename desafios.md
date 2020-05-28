@@ -7,3 +7,13 @@ Desafio 49
 1. Fazer o object do logo
 2. Fazer o object do menu hamburguer e fazer as linhas usando css
 3. Criar o componet header
+
+Desafio 50
+1. criar a parte branca do jogo
+2. criar o circulo e o xis
+3. fazer o desenho do #
+
+Desafio 51
+1. criar o Mostrar eventos
+2. criar o check box, quando clicar no texto selecionar o check box tb
+3. fazer a hashtag ficar com as bordas aredondadas

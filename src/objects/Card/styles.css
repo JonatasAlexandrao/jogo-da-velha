@@ -1,0 +1,10 @@
+
+.card {
+  
+  background-color: var(--color-zero);
+  border-radius: var(--spacing-radius);
+  box-shadow: 0 3px 6px 0 var(--color-light-negative);
+  /*margin: auto;
+
+  margin-top: 105px;*/
+}

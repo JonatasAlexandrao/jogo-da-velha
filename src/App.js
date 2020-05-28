@@ -1,10 +1,17 @@
 import React from 'react';
 
-import Header from './component/Header'
+import './App.css';
+import Header from './component/Header';
+import Hashtag from './component/Hashtag';
 
 
-function App() {
-  return (<Header />);
+const App = () => {
+  return (
+  <main className='app'>
+    <Header />
+    <Hashtag />   
+  </main>
+  );
 }
 
 

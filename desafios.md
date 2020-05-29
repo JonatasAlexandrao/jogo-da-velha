@@ -17,3 +17,8 @@ Desafio 51
 1. criar o Mostrar eventos
 2. criar o check box, quando clicar no texto selecionar o check box tb
 3. fazer a hashtag ficar com as bordas aredondadas
+
+Desafio 52
+1. começar a criar a pagina de sobre, mas por cima da atual, criando só o fundo cinza.
+2. criar todos os componentes dessa pagina.
+3. ao clicar em sobre aparecer essa tela nova, clicou no X dessa dela volta pro jogo.

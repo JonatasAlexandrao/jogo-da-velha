@@ -1,5 +1,5 @@
 
-.sobre {
+.about-link {
   
   color: var(--color-fourth);
 
@@ -10,5 +10,7 @@
 
 }
 
-
+.about-link.-light {
+  color: var(--color-zero);
+}
 

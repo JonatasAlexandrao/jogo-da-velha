@@ -3,7 +3,7 @@ import './styles.css';
 
 import AboutLink from '../../objects/AboutLink';
 import LogoCollab from '../../objects/LogoCollab';
-import Menu from '../../objects/Menu';
+import MenuGame from '../../objects/MenuGame';
 
 
 const Header = ({onClick}) => {
@@ -11,7 +11,7 @@ const Header = ({onClick}) => {
   <header className='header'>
     <LogoCollab />
     <AboutLink onClick={ onClick } />
-    <Menu onClick={ onClick } />
+    <MenuGame onClick={ onClick } />
   </header>
   );
 }

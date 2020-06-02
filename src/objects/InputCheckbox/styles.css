@@ -1,5 +1,5 @@
 
-.input {
+.input-game {
   display: none;
 }
 
@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-.input:checked + .label-game::before {
+.input-game:checked + .label-game::before {
   background-color: var(--color-first);
 }
 

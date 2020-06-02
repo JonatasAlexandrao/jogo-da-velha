@@ -8,7 +8,7 @@ import HeaderInternal from './component/HeaderInternal';
 import ProfileUser from './component/ProfileUser';
 
 import Checkbox from './objects/Checkbox';
-import About from './objects/About';
+import LayerDark from './objects/LayerDark';
 
 const App = () => {
 
@@ -23,10 +23,10 @@ const App = () => {
       <Hashtag /> 
       <Checkbox id='show' value='show' content='Mostrar evento'/>
 
-      <About className= {activeAbout}>
+      <LayerDark className= {activeAbout}>
         <HeaderInternal onClick={handleClickRemove} />
         <ProfileUser />
-      </About>
+      </LayerDark>
     </main>
   );
 }

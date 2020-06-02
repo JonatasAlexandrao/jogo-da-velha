@@ -1,5 +1,5 @@
 
-.about {
+.layer-dark {
   position: absolute;
   top: 0;
   left: 0;
@@ -10,10 +10,10 @@
   transition: transform 200ms linear;
 }
 
-.about.-active {
+.layer-dark.-active {
   transform: translateX(0);
 }
 
-.about > .header-internal {
+.layer-dark > .header-internal {
   margin-bottom: var(--spacing-very-big);
 }

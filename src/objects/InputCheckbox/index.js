@@ -3,7 +3,7 @@ import './styles.css';
 import Input from '../Input';
 import Label from '../Label';
 
-const Checkbox = ({ id="", value="", content=""}) => {
+const InputCheckbox = ({ id="", value="", content=""}) => {
   return(
     <>
       <Input id={id} value={value} content={content} type='checkbox'/>   
@@ -12,4 +12,4 @@ const Checkbox = ({ id="", value="", content=""}) => {
   );
 }
 
-export default Checkbox;
+export default InputCheckbox;

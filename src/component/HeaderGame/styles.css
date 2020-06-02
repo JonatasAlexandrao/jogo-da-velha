@@ -1,5 +1,5 @@
 
-.header {
+.header-game {
   /*background-color: rgba(165, 42, 42, .3);*/
   display: flex;
   justify-content: space-between;
@@ -9,11 +9,11 @@
 
 }
 
-.header > .about-link {
+.header-game > .about-link {
   margin-left: auto;
   margin-right: 10px;
 }
 
-.header > .menu-game {
+.header-game > .menu-game {
   width: 25px;
 }

@@ -2,8 +2,8 @@
 .icon-close {
   display: inline-block;
   position: relative;
-  width: 24px;
-  height: 24px;
+  width: 23px;
+  height: 23px;
 }
 .icon-close::before,
 .icon-close::after {

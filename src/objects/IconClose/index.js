@@ -3,9 +3,9 @@ import React from 'react';
 import './styles.css';
 
 
-const IconClose = () => {
+const IconClose = ({ onClick }) => {
   return(
-  <a className='icon-close' href=''>
+  <a className='icon-close' href='#' onClick={onClick}>
     <span className='content'>Fechar</span>
   </a>
   );

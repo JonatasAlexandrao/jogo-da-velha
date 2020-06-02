@@ -3,12 +3,12 @@
   display: none;
 }
 
-.label {
+.label-game {
   display: inline-flex;
   align-items: center;
   }
 
-.label::before {
+.label-game::before {
   content:'';
 
   display: inline-block;
@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-.input:checked + .label::before {
+.input:checked + .label-game::before {
   background-color: var(--color-first);
 }
 

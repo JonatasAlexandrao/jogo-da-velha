@@ -3,7 +3,7 @@ import './App.css';
 
 
 import Header from './component/Header';
-import Hashtag from './component/Hashtag';
+import HashtagGame from './component/HashtagGame';
 import HeaderInternal from './component/HeaderInternal';
 import ProfileUser from './component/ProfileUser';
 
@@ -20,7 +20,7 @@ const App = () => {
   return (
     <main className='app'>
       <Header onClick={handleClickAdd} />
-      <Hashtag /> 
+      <HashtagGame /> 
       <InputCheckbox id='show' value='show' content='Mostrar evento'/>
 
       <LayerDark className= {activeAbout}>

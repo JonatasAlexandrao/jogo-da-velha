@@ -1,0 +1,20 @@
+
+.tag-game {
+  background-color: var(--color-zero);
+  border-radius: 2em;
+  font-size: var(--size-small);
+  padding: var(--spacing-very-small) var(--spacing-medium);
+}
+
+.tag-game.-end {
+  background-color:var(--color-nineth);
+  text-transform: uppercase;
+}
+.tag-game.-vitoria {
+  background-color: darkgreen;
+  text-transform: uppercase;
+}
+.tag-game.-derrota {
+  background-color:brown;
+  text-transform: uppercase;
+}

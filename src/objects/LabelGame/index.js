@@ -3,9 +3,12 @@ import React from 'react';
 import './styles.css';
 
 
-const LabelGame = ({ htmlFor, content }) => {
+const LabelGame = ({ htmlFor, content}) => {
   return(
-    <label className="label-game" htmlFor={htmlFor}>{content}</label>
+    <label 
+      className="label-game" 
+      htmlFor={htmlFor} 
+    >{content}</label>
   );
 }
 

@@ -3,7 +3,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  height: auto;
 }
 
 .app > .header-game {
@@ -19,3 +19,13 @@
   margin-bottom: 40px;
 }
 
+.app > .label-game {
+  margin-bottom: var(--spacing-big);
+}
+
+.app > .history-game {
+  display: none;
+}
+.app > .input-game:checked ~ .history-game {
+  display: block;
+}

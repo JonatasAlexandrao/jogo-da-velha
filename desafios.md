@@ -27,3 +27,8 @@ Desafio 53
 1. Dar nomes corretos para as pastas.
 2. Desehar na tela a parte de históricos e criar o evento do "mostrar eventos" quando selecionado mostra o histórico, quando apagado some o histórico.
 3. Fazer aparecer o X ou o O na celula que for clicada do jogo da velha.
+
+Desafio 54
+1. Intercalar o X e o O quando clicar nas casas do jogo.
+2. Fazer ir aparecendo no histórico qual foi usado no jogo.
+3. Fazer o responcivo para telas de pc e por o efeito de mouse hover na versão descktop quando passar pelas casas do jogo.

@@ -29,3 +29,32 @@
 .app > .input-game:checked ~ .history-game {
   display: block;
 }
+
+
+/*Responsivel*/
+@media (min-width:1024px){
+  .app > .card-game {
+    width: 60vw;
+    height: 60vw;
+  }
+}
+@media (min-width:800px){
+  .app > .card-game {
+    width: 500vw;
+    height: 500vw;
+  }
+}
+@media (min-width:500px) {
+  .app > .card-game {
+    width: 60vw;
+    height: 60vw;
+  }
+  .app > .label-game {
+    position: absolute;
+    left: 35px;
+    bottom: -30px;
+  }
+  .app > .history-game {
+    float: right;
+  }
+}

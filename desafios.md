@@ -32,3 +32,8 @@ Desafio 54
 1. Intercalar o X e o O quando clicar nas casas do jogo.
 2. Fazer ir aparecendo no histórico qual foi usado no jogo.
 3. Fazer o responcivo para telas de pc e por o efeito de mouse hover na versão descktop quando passar pelas casas do jogo.
+
+Desafio 55
+1. Animar a transição do mostrar eventos
+2. Ao clicar em algum item do histórico que o jogo volte para aquele momento.
+3. Aparecer no histórico quando alguem ganhar e quem ganhou, mostrar empate caso ninguém tenha ganhado.

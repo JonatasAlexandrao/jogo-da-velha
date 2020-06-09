@@ -4,6 +4,8 @@
   position: relative;
   overflow: hidden;
   height: auto;
+  
+  /*background-color: rebeccapurple;*/
 }
 
 .app > .header-game {
@@ -67,4 +69,10 @@
     left: 96px;
   }
 }
+
+@media(min-height:560px){
+  .app {
+    height: 100vh;
+  }
+} 
 

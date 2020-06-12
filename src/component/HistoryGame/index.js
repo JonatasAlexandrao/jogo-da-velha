@@ -2,17 +2,27 @@ import React from 'react';
 import './styles.css';
 import TagGame from '../../objects/TagGame';
 
-const HistoryGame = ({history}) => {
+
+
+const HistoryGame = ({history, onClick}) => {
+                       
+  
   return (
     <ol className='history-game'>
       
       {history.map((content, key)=> (
-        <li key={key} className='action'>
-          <TagGame content={content}/>
+        <li key={key} className='action' onClick={() => onClick(key)}>
+          <TagGame content={content} />
         </li>
+        
       ))}    
     </ol>
+    
   );
+  
+  
 }
+
+
 
 export default HistoryGame;

@@ -4,6 +4,7 @@
   border-radius: 2em;
   font-size: var(--size-small);
   padding: var(--spacing-very-small) var(--spacing-medium);
+  cursor: pointer;
 }
 
 .tag-game.-end {

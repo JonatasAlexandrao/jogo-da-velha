@@ -39,7 +39,15 @@
 }
 .app .input-game:checked ~ .history-game {
   display: block;
+  }
+/*
+.app .history-game {
+  opacity: 0;
+  transition: opacity 200ms linear;
 }
+.app .input-game:checked ~ .history-game {
+  opacity: 1;
+}*/
 
 
 /*Responsivel*/
@@ -54,21 +62,46 @@
     padding-left: 10%;
     padding-right: 10%;
   }
+
   .app > .wrapper-hashtagHistory {
     display: inline-flex;
     justify-content: center;
     position: relative;
+    transition: transform 200ms linear;
   }
+
+  .app > .wrapper-hashtagHistory.-active {
+    transform: translateX(-20%);
+    
+  }
+
   .app .card-game {
     margin-right: 40px;
     margin-bottom: 60px;
   }
+
   .app .label-game {
     position: absolute;
     top: 370px;
     left: 96px;
   }
+
+  .app .history-game {
+    opacity: 0;
+    transition: transform 200ms linear;
+    display: block;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .app > .wrapper-hashtagHistory.-active > .history-game {
+    opacity: 1;
+    transform: translateX(200%);
+  }
+
 }
+
+
 
 @media(min-height:560px){
   .app {
